@@ -410,351 +410,351 @@ document.addEventListener("DOMContentLoaded", function () {
   // Object to store paths for different buttons
   const contentPaths = {
     // Level 1
-    // Part of Speech
+    // Part of Speach
     adjBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/adjectives/adjectives.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/adjectives/adjectives.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/adjectives/adjectives.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/adjectives/adjectives.js",
     },
     advBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/adverbs/adverbs.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/adverbs/adverbs.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/adverbs/adverbs.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/adverbs/adverbs.js",
     },
     conjBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/conjunctions/conjunctions.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/conjunctions/conjunctions.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/conjunctions/conjunctions.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/conjunctions/conjunctions.js",
     },
     interBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/interjections/interjections.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/interjections/interjections.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/interjections/interjections.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/interjections/interjections.js",
     },
     nouBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/nouns/nouns.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/nouns/nouns.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/nouns/nouns.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/nouns/nouns.js",
     },
     prepBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/prepositions/prepositions.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/prepositions/prepositions.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/prepositions/prepositions.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/prepositions/prepositions.js",
     },
     pronBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/pronouns/pronouns.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/pronouns/pronouns.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/pronouns/pronouns.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/pronouns/pronouns.js",
     },
     verBtn: {
-      html: "EnglishConcepts/Level1/PartofSpeach/verbs/verbs.html",
-      js: "EnglishConcepts/Level1/PartofSpeach/verbs/verbs.js",
+      html: "/EnglishConcepts/Level1/PartofSpeach/verbs/verbs.html",
+      js: "/EnglishConcepts/Level1/PartofSpeach/verbs/verbs.js",
     },
     // Sentence Structure
     clausesBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/Clauses/clauses.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/Clauses/clauses.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/Clauses/clauses.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/Clauses/clauses.js",
     },
     d_s_clausesBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/DependentSubordinateClause/dependentClause.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/DependentSubordinateClause/dependentClause.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/DependentSubordinateClause/dependentClause.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/DependentSubordinateClause/dependentClause.js",
     },
     direct_objectBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/DirectObject/directObject.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/DirectObject/directObject.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/DirectObject/directObject.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/DirectObject/directObject.js",
     },
     independent_clausesBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/IndependentClause/independentClause.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/IndependentClause/independentClause.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/IndependentClause/independentClause.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/IndependentClause/independentClause.js",
     },
     indirect_objectBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/IndirectObject/indirectObject.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/IndirectObject/indirectObject.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/IndirectObject/indirectObject.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/IndirectObject/indirectObject.js",
     },
     objectBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/Object/object.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/Object/object.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/Object/object.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/Object/object.js",
     },
     phrasesBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/Phrases/phrases.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/Phrases/phrases.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/Phrases/phrases.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/Phrases/phrases.js",
     },
     predicateBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/Predicate/predicate.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/Predicate/predicate.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/Predicate/predicate.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/Predicate/predicate.js",
     },
     subjectBtn: {
-      html: "EnglishConcepts/Level1/SentanceStructure/Subject/subject.html",
-      js: "EnglishConcepts/Level1/SentanceStructure/Subject/subject.js",
+      html: "/EnglishConcepts/Level1/SentanceStructure/Subject/subject.html",
+      js: "/EnglishConcepts/Level1/SentanceStructure/Subject/subject.js",
     },
     // Tenses
     future_continuousBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Future/Future-Continuous/Future-Continuous.html",
-      js: "EnglishConcepts/Level1/Tenses/Future/Future-Continuous/Future-Continuous.js",
+      html: "/EnglishConcepts/Level1/Tenses/Future/Future-Continuous/Future-Continuous.html",
+      js: "/EnglishConcepts/Level1/Tenses/Future/Future-Continuous/Future-Continuous.js",
     },
     future_perfectBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Future/Future-Perfect/Future-Perfect.html",
-      js: "EnglishConcepts/Level1/Tenses/Future/Future-Perfect/Future-Perfect.js",
+      html: "/EnglishConcepts/Level1/Tenses/Future/Future-Perfect/Future-Perfect.html",
+      js: "/EnglishConcepts/Level1/Tenses/Future/Future-Perfect/Future-Perfect.js",
     },
     future_perfect_continuousBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Future/Future-Perfect-Continuous/Future-Perfect-Continuous.html",
-      js: "EnglishConcepts/Level1/Tenses/Future/Future-Perfect-Continuous/Future-Perfect-Continuous.js",
+      html: "/EnglishConcepts/Level1/Tenses/Future/Future-Perfect-Continuous/Future-Perfect-Continuous.html",
+      js: "/EnglishConcepts/Level1/Tenses/Future/Future-Perfect-Continuous/Future-Perfect-Continuous.js",
     },
     simple_futureBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Future/Simple-Future/Simple-Future.html",
-      js: "EnglishConcepts/Level1/Tenses/Future/Simple-Future/Simple-Future.js",
+      html: "/EnglishConcepts/Level1/Tenses/Future/Simple-Future/Simple-Future.html",
+      js: "/EnglishConcepts/Level1/Tenses/Future/Simple-Future/Simple-Future.js",
     },
     past_continuousBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Past/Past-Continuous/pastContinuous.html",
-      js: "EnglishConcepts/Level1/Tenses/Past/Past-Continuous/pastContinuous.js",
+      html: "/EnglishConcepts/Level1/Tenses/Past/Past-Continuous/pastContinuous.html",
+      js: "/EnglishConcepts/Level1/Tenses/Past/Past-Continuous/pastContinuous.js",
     },
     past_perfectBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Past/Past-Pefrect/pastPerfect.html",
-      js: "EnglishConcepts/Level1/Tenses/Past/Past-Pefrect/pastPerfect.js",
+      html: "/EnglishConcepts/Level1/Tenses/Past/Past-Pefrect/pastPerfect.html",
+      js: "/EnglishConcepts/Level1/Tenses/Past/Past-Pefrect/pastPerfect.js",
     },
     past_perfect_continuousBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Past/Past-Perfect-Continuous/pastPerfectContinuous.html",
-      js: "EnglishConcepts/Level1/Tenses/Past/Past-Perfect-Continuous/pastPerfectContinuous.js",
+      html: "/EnglishConcepts/Level1/Tenses/Past/Past-Perfect-Continuous/pastPerfectContinuous.html",
+      js: "/EnglishConcepts/Level1/Tenses/Past/Past-Perfect-Continuous/pastPerfectContinuous.js",
     },
     past_simpleBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Past/Past-Simple/simplePast.html",
-      js: "EnglishConcepts/Level1/Tenses/Past/Past-Simple/simplePast.js",
+      html: "/EnglishConcepts/Level1/Tenses/Past/Past-Simple/simplePast.html",
+      js: "/EnglishConcepts/Level1/Tenses/Past/Past-Simple/simplePast.js",
     },
     present_continuousBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Present/Present-Continuous/presentContinuous.html",
-      js: "EnglishConcepts/Level1/Tenses/Present/Present-Continuous/presentContinuous.js",
+      html: "/EnglishConcepts/Level1/Tenses/Present/Present-Continuous/presentContinuous.html",
+      js: "/EnglishConcepts/Level1/Tenses/Present/Present-Continuous/presentContinuous.js",
     },
     present_perfectBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Present/Present-Perfect/presentPerfect.html",
-      js: "EnglishConcepts/Level1/Tenses/Present/Present-Perfect/presentPerfect.js",
+      html: "/EnglishConcepts/Level1/Tenses/Present/Present-Perfect/presentPerfect.html",
+      js: "/EnglishConcepts/Level1/Tenses/Present/Present-Perfect/presentPerfect.js",
     },
     present_perfect_continuousBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Present/Present-Perfect-Continuous/presentPerfectContinuous.html",
-      js: "EnglishConcepts/Level1/Tenses/Present/Present-Perfect-Continuous/presentPerfectContinuous.js",
+      html: "/EnglishConcepts/Level1/Tenses/Present/Present-Perfect-Continuous/presentPerfectContinuous.html",
+      js: "/EnglishConcepts/Level1/Tenses/Present/Present-Perfect-Continuous/presentPerfectContinuous.js",
     },
     present_simpleBtn: {
-      html: "EnglishConcepts/Level1/Tenses/Present/Present-Simple/simplePresent.html",
-      js: "EnglishConcepts/Level1/Tenses/Present/Present-Simple/simplePresent.js",
+      html: "/EnglishConcepts/Level1/Tenses/Present/Present-Simple/simplePresent.html",
+      js: "/EnglishConcepts/Level1/Tenses/Present/Present-Simple/simplePresent.js",
     },
     // Voice
     active_voiceBtn: {
-      html: "EnglishConcepts/Level1/Voice/Active-Voice/Active-Voice.html",
-      js: "EnglishConcepts/Level1/Voice/Active-Voice/Active-Voice.js",
+      html: "/EnglishConcepts/Level1/Voice/Active-Voice/Active-Voice.html",
+      js: "/EnglishConcepts/Level1/Voice/Active-Voice/Active-Voice.js",
     },
     passive_voiceBtn: {
-      html: "EnglishConcepts/Level1/Voice/Passive-Voice/Passive-Voice.html",
-      js: "EnglishConcepts/Level1/Voice/Passive-Voice/Passive-Voice.js",
+      html: "/EnglishConcepts/Level1/Voice/Passive-Voice/Passive-Voice.html",
+      js: "/EnglishConcepts/Level1/Voice/Passive-Voice/Passive-Voice.js",
     },
     // Mood
     imperative_moodBtn: {
-      html: "EnglishConcepts/Level1/Mood/Imperative-Mood/imperativeMood.html",
-      js: "EnglishConcepts/Level1/Mood/Imperative-Mood/imperativeMood.js",
+      html: "/EnglishConcepts/Level1/Mood/Imperative-Mood/imperativeMood.html",
+      js: "/EnglishConcepts/Level1/Mood/Imperative-Mood/imperativeMood.js",
     },
     indicative_moodBtn: {
-      html: "EnglishConcepts/Level1/Mood/Indicative-Mood/indicativeMood.html",
-      js: "EnglishConcepts/Level1/Mood/Indicative-Mood/indicativeMood.js",
+      html: "/EnglishConcepts/Level1/Mood/Indicative-Mood/indicativeMood.html",
+      js: "/EnglishConcepts/Level1/Mood/Indicative-Mood/indicativeMood.js",
     },
     subjunctive_moodBtn: {
-      html: "EnglishConcepts/Level1/Mood/Subjunctive-Mood/subjunctiveMood.html",
-      js: "EnglishConcepts/Level1/Mood/Subjunctive-Mood/subjunctiveMood.js",
+      html: "/EnglishConcepts/Level1/Mood/Subjunctive-Mood/subjunctiveMood.html",
+      js: "/EnglishConcepts/Level1/Mood/Subjunctive-Mood/subjunctiveMood.js",
     },
     // Level 2
     // Article
     definite_articleBtn: {
-      html: "EnglishConcepts/Level-2/Articles/Definite-Article/definiteArticle.html",
-      js: "EnglishConcepts/Level-2/Articles/Definite-Article/definiteArticle.js",
+      html: "/EnglishConcepts/Level-2/Articles/Definite-Article/definiteArticle.html",
+      js: "/EnglishConcepts/Level-2/Articles/Definite-Article/definiteArticle.js",
     },
     determinersBtn: {
-      html: "EnglishConcepts/Level-2/Articles/Determiners/determiners.html",
-      js: "EnglishConcepts/Level-2/Articles/Determiners/determiners.js",
+      html: "/EnglishConcepts/Level-2/Articles/Determiners/determiners.html",
+      js: "/EnglishConcepts/Level-2/Articles/Determiners/determiners.js",
     },
     indefinite_articleBtn: {
-      html: "EnglishConcepts/Level-2/Articles/Indefinite-Article/indefiniteArticle.html",
-      js: "EnglishConcepts/Level-2/Articles/Indefinite-Article/indefiniteArticle.js",
+      html: "/EnglishConcepts/Level-2/Articles/Indefinite-Article/indefiniteArticle.html",
+      js: "/EnglishConcepts/Level-2/Articles/Indefinite-Article/indefiniteArticle.js",
     },
     // Modifiers
     adjective_adverbsBtn: {
-      html: "EnglishConcepts/Level-2/Modifiers/adjectivesAdverbs.html",
-      js: "EnglishConcepts/Level-2/Modifiers/adjectivesAdverbs.js",
+      html: "/EnglishConcepts/Level-2/Modifiers/adjectivesAdverbs.html",
+      js: "/EnglishConcepts/Level-2/Modifiers/adjectivesAdverbs.js",
     },
     // Pronouns
     pronounBtn: {
-      html: "EnglishConcepts/Level-2/Pronoun-Antecedent-Agreement/subjectVerbAgreement.html",
-      js: "EnglishConcepts/Level-2/Pronoun-Antecedent-Agreement/subjectVerbAgreement.js",
+      html: "/EnglishConcepts/Level-2/Pronoun-Antecedent-Agreement/subjectVerbAgreement.html",
+      js: "/EnglishConcepts/Level-2/Pronoun-Antecedent-Agreement/subjectVerbAgreement.js",
     },
     // Punctuation
     apostrophesBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Apostrophes/apostrophes.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Apostrophes/apostrophes.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Apostrophes/apostrophes.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Apostrophes/apostrophes.js",
     },
     colonsBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Colons/colons.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Colons/colons.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Colons/colons.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Colons/colons.js",
     },
     commasBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Commas/commas.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Commas/commas.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Commas/commas.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Commas/commas.js",
     },
     dashesBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Dashes/dashes.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Dashes/dashes.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Dashes/dashes.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Dashes/dashes.js",
     },
     exclamation_markBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Exclamation Marks/exclamationMarks.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Exclamation Marks/exclamationMarks.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Exclamation Marks/exclamationMarks.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Exclamation Marks/exclamationMarks.js",
     },
     parenthesesBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Parentheses/parentheses.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Parentheses/parentheses.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Parentheses/parentheses.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Parentheses/parentheses.js",
     },
     periodsBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Periods/periods.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Periods/periods.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Periods/periods.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Periods/periods.js",
     },
     question_markBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Question Mark/QuestionMark.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Question Mark/QuestionMark.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Question Mark/QuestionMark.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Question Mark/QuestionMark.js",
     },
     quotation_markBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Quotation Marks/quotationMarks.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Quotation Marks/quotationMarks.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Quotation Marks/quotationMarks.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Quotation Marks/quotationMarks.js",
     },
     semicolonsBtn: {
-      html: "EnglishConcepts/Level-2/Punctuation/Semicolons/semicolons.html",
-      js: "EnglishConcepts/Level-2/Punctuation/Semicolons/semicolons.js",
+      html: "/EnglishConcepts/Level-2/Punctuation/Semicolons/semicolons.html",
+      js: "/EnglishConcepts/Level-2/Punctuation/Semicolons/semicolons.js",
     },
     // Subject
     subject_agreementBtn: {
-      html: "EnglishConcepts/Level-2/Subject-Agreement/subjectAgreement.html",
-      js: "EnglishConcepts/Level-2/Subject-Agreement/subjectAgreement.js",
+      html: "/EnglishConcepts/Level-2/Subject-Agreement/subjectAgreement.html",
+      js: "/EnglishConcepts/Level-2/Subject-Agreement/subjectAgreement.js",
     },
     // Level 3
     // Conditionals
     zero_conditionalBtn: {
-      html: "EnglishConcepts/Level-3/Conditionals/Zero-Conditional/zeroConditional.html",
-      js: "EnglishConcepts/Level-3/Conditionals/Zero-Conditional/zeroConditional.js",
+      html: "/EnglishConcepts/Level-3/Conditionals/Zero-Conditional/zeroConditional.html",
+      js: "/EnglishConcepts/Level-3/Conditionals/Zero-Conditional/zeroConditional.js",
     },
     first_conditionalBtn: {
-      html: "EnglishConcepts/Level-3/Conditionals/First-Conditional/firstConditional.html",
-      js: "EnglishConcepts/Level-3/Conditionals/First-Conditional/firstConditional.js",
+      html: "/EnglishConcepts/Level-3/Conditionals/First-Conditional/firstConditional.html",
+      js: "/EnglishConcepts/Level-3/Conditionals/First-Conditional/firstConditional.js",
     },
     second_conditionalBtn: {
-      html: "EnglishConcepts/Level-3/Conditionals/Second-Conditional/secondConditional.html",
-      js: "EnglishConcepts/Level-3/Conditionals/Second-Conditional/secondConditional.js",
+      html: "/EnglishConcepts/Level-3/Conditionals/Second-Conditional/secondConditional.html",
+      js: "/EnglishConcepts/Level-3/Conditionals/Second-Conditional/secondConditional.js",
     },
     third_conditionalBtn: {
-      html: "EnglishConcepts/Level-3/Conditionals/Third-Conditional/thirdConditional.html",
-      js: "EnglishConcepts/Level-3/Conditionals/Third-Conditional/thirdConditional.js",
+      html: "/EnglishConcepts/Level-3/Conditionals/Third-Conditional/thirdConditional.html",
+      js: "/EnglishConcepts/Level-3/Conditionals/Third-Conditional/thirdConditional.js",
     },
     // Conjunctions
     coordinating_conjunctionsBtn: {
-      html: "EnglishConcepts/Level-3/Conjunctions/Coordinating-Conjunctions/coordinatingConjunctions.html",
-      js: "EnglishConcepts/Level-3/Conjunctions/Coordinating-Conjunctions/coordinatingConjunctions.js",
+      html: "/EnglishConcepts/Level-3/Conjunctions/Coordinating-Conjunctions/coordinatingConjunctions.html",
+      js: "/EnglishConcepts/Level-3/Conjunctions/Coordinating-Conjunctions/coordinatingConjunctions.js",
     },
     correlative_conjunctionsBtn: {
-      html: "EnglishConcepts/Level-3/Conjunctions/Correlative-Conjunctions/correlativeConjunctions.html",
-      js: "EnglishConcepts/Level-3/Conjunctions/Correlative-Conjunctions/correlativeConjunctions.js",
+      html: "/EnglishConcepts/Level-3/Conjunctions/Correlative-Conjunctions/correlativeConjunctions.html",
+      js: "/EnglishConcepts/Level-3/Conjunctions/Correlative-Conjunctions/correlativeConjunctions.js",
     },
     subordinating_conjunctionsBtn: {
-      html: "EnglishConcepts/Level-3/Conjunctions/Subordinating-Conjunctions/subordinatingConjunctions.html",
-      js: "EnglishConcepts/Level-3/Conjunctions/Subordinating-Conjunctions/subordinatingConjunctions.js",
+      html: "/EnglishConcepts/Level-3/Conjunctions/Subordinating-Conjunctions/subordinatingConjunctions.html",
+      js: "/EnglishConcepts/Level-3/Conjunctions/Subordinating-Conjunctions/subordinatingConjunctions.js",
     },
 
     // Direct and Indirect Speech
     direct_speechBtn: {
-      html: "EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Direct-Speach/directSpeach.html",
-      js: "EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Direct-Speach/directSpeach.js",
+      html: "/EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Direct-Speach/directSpeach.html",
+      js: "/EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Direct-Speach/directSpeach.js",
     },
     indirect_speechBtn: {
-      html: "EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Indirect-Speach/indirectSpeach.html",
-      js: "EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Indirect-Speach/indirectSpeach.js",
+      html: "/EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Indirect-Speach/indirectSpeach.html",
+      js: "/EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Indirect-Speach/indirectSpeach.js",
     },
     // Negation
     negationBtn: {
-      html: "EnglishConcepts/Level-3/Negation/negation.html",
-      js: "EnglishConcepts/Level-3/Negation/negation.js",
+      html: "/EnglishConcepts/Level-3/Negation/negation.html",
+      js: "/EnglishConcepts/Level-3/Negation/negation.js",
     },
     // Questions
     tag_questionBtn: {
-      html: "EnglishConcepts/Level-3/Questions/Tag-Questions/tagQuestions.html",
-      js: "EnglishConcepts/Level-3/Questions/Tag-Questions/tagQuestions.js",
+      html: "/EnglishConcepts/Level-3/Questions/Tag-Questions/tagQuestions.html",
+      js: "/EnglishConcepts/Level-3/Questions/Tag-Questions/tagQuestions.js",
     },
     wh_questionBtn: {
-      html: "EnglishConcepts/Level-3/Questions/WH-Questions/whQuestions.html",
-      js: "EnglishConcepts/Level-3/Questions/WH-Questions/whQuestions.js",
+      html: "/EnglishConcepts/Level-3/Questions/WH-Questions/whQuestions.html",
+      js: "/EnglishConcepts/Level-3/Questions/WH-Questions/whQuestions.js",
     },
     yes_or_no_questionBtn: {
-      html: "EnglishConcepts/Level-3/Questions/Yes-or-No/yesOrNo.html",
-      js: "EnglishConcepts/Level-3/Questions/Yes-or-No/yesOrNo.js",
+      html: "/EnglishConcepts/Level-3/Questions/Yes-or-No/yesOrNo.html",
+      js: "/EnglishConcepts/Level-3/Questions/Yes-or-No/yesOrNo.js",
     },
     // Level 4
     // Ellipsis
     ellipsisBtn: {
-      html: "EnglishConcepts/Level-4/Ellipsis-and-Substitution/Ellipsis/ellipsis.html",
-      js: "EnglishConcepts/Level-4/Ellipsis-and-Substitution/Ellipsis/ellipsis.js",
+      html: "/EnglishConcepts/Level-4/Ellipsis-and-Substitution/Ellipsis/ellipsis.html",
+      js: "/EnglishConcepts/Level-4/Ellipsis-and-Substitution/Ellipsis/ellipsis.js",
     },
     substitutionBtn: {
-      html: "EnglishConcepts/Level-4/Ellipsis-and-Substitution/Substitution/substitution.html",
-      js: "EnglishConcepts/Level-4/Ellipsis-and-Substitution/Substitution/substitution.js",
+      html: "/EnglishConcepts/Level-4/Ellipsis-and-Substitution/Substitution/substitution.html",
+      js: "/EnglishConcepts/Level-4/Ellipsis-and-Substitution/Substitution/substitution.js",
     },
     // Idioms
     idiomsBtn: {
-      html: "EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Idioms/idioms.html",
-      js: "EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Idioms/idioms.js",
+      html: "/EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Idioms/idioms.html",
+      js: "/EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Idioms/idioms.js",
     },
     phrasal_VerbBtn: {
-      html: "EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Phrasal-verb/phrasalVerb.html",
-      js: "EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Phrasal-verb/phrasalVerb.js",
+      html: "/EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Phrasal-verb/phrasalVerb.html",
+      js: "/EnglishConcepts/Level-4/Idioms-and-Phrasal-verbs/Phrasal-verb/phrasalVerb.js",
     },
     // Inversion
     inversionBtn: {
-      html: "EnglishConcepts/Level-4/Inversion/inversion.html",
-      js: "EnglishConcepts/Level-4/Inversion/inversion.js",
+      html: "/EnglishConcepts/Level-4/Inversion/inversion.html",
+      js: "/EnglishConcepts/Level-4/Inversion/inversion.js",
     },
     // Modifiers2
     dangling_modifiersBtn: {
-      html: "EnglishConcepts/Level-4/Modifiers2/Dangling-Modifiers/danglingModifiers.html",
-      js: "EnglishConcepts/Level-4/Modifiers2/Dangling-Modifiers/danglingModifiers.js",
+      html: "/EnglishConcepts/Level-4/Modifiers2/Dangling-Modifiers/danglingModifiers.html",
+      js: "/EnglishConcepts/Level-4/Modifiers2/Dangling-Modifiers/danglingModifiers.js",
     },
     misplaced_modifiersBtn: {
-      html: "EnglishConcepts/Level-4/Modifiers2/Misplaced-Modifiers/misplacedModifiers.html",
-      js: "EnglishConcepts/Level-4/Modifiers2/Misplaced-Modifiers/misplacedModifiers.js",
+      html: "/EnglishConcepts/Level-4/Modifiers2/Misplaced-Modifiers/misplacedModifiers.html",
+      js: "/EnglishConcepts/Level-4/Modifiers2/Misplaced-Modifiers/misplacedModifiers.js",
     },
     // Parallelism
     parallelism_Btn: {
-      html: "EnglishConcepts/Level-4/Parallelism/parallelism.html",
-      js: "EnglishConcepts/Level-4/Parallelism/parallelism.js",
+      html: "/EnglishConcepts/Level-4/Parallelism/parallelism.html",
+      js: "/EnglishConcepts/Level-4/Parallelism/parallelism.js",
     },
     // Level 5
     // Appositives
     appositivesBtn: {
-      html: "EnglishConcepts/Level-5/Appositives/appositives.html",
-      js: "EnglishConcepts/Level-5/Appositives/appositives.js",
+      html: "/EnglishConcepts/Level-5/Appositives/appositives.html",
+      js: "/EnglishConcepts/Level-5/Appositives/appositives.js",
     },
     // Gerunds and Infinitive Usage
     gerundsBtn: {
-      html: "EnglishConcepts/Level-5/Gerund and Infinitive Usage/gerundAndInfinitive.html",
-      js: "EnglishConcepts/Level-5/Gerund and Infinitive Usage/gerundAndInfinitive.js",
+      html: "/EnglishConcepts/Level-5/Gerund and Infinitive Usage/gerundAndInfinitive.html",
+      js: "/EnglishConcepts/Level-5/Gerund and Infinitive Usage/gerundAndInfinitive.js",
     },
     // Non-Infinitive
     gerundsBtn2: {
-      html: "EnglishConcepts/Level-5/Non-Finite Verbs/Gerunds/gerunds.html",
-      js: "EnglishConcepts/Level-5/Non-Finite Verbs/Gerunds/gerunds.js",
+      html: "/EnglishConcepts/Level-5/Non-Finite Verbs/Gerunds/gerunds.html",
+      js: "/EnglishConcepts/Level-5/Non-Finite Verbs/Gerunds/gerunds.js",
     },
     infinitivesBtn: {
-      html: "EnglishConcepts/Level-5/Non-Finite Verbs/Infinitives/infinitives.html",
-      js: "EnglishConcepts/Level-5/Non-Finite Verbs/Infinitives/infinitives.js",
+      html: "/EnglishConcepts/Level-5/Non-Finite Verbs/Infinitives/infinitives.html",
+      js: "/EnglishConcepts/Level-5/Non-Finite Verbs/Infinitives/infinitives.js",
     },
     participlesBtn: {
-      html: "EnglishConcepts/Level-5/Non-Finite Verbs/Participles/participles.html",
-      js: "EnglishConcepts/Level-5/Non-Finite Verbs/Participles/participles.js",
+      html: "/EnglishConcepts/Level-5/Non-Finite Verbs/Participles/participles.html",
+      js: "/EnglishConcepts/Level-5/Non-Finite Verbs/Participles/participles.js",
     },
     // Relative Clauses
     defining_relative_clausesBtn: {
-      html: "EnglishConcepts/Level-5/Relative Clauses/Defining Relative Clauses/definingRelativeClauses.html",
-      js: "EnglishConcepts/Level-5/Relative Clauses/Defining Relative Clauses/definingRelativeClauses.js",
+      html: "/EnglishConcepts/Level-5/Relative Clauses/Defining Relative Clauses/definingRelativeClauses.html",
+      js: "/EnglishConcepts/Level-5/Relative Clauses/Defining Relative Clauses/definingRelativeClauses.js",
     },
     non_defining_relative_clausesBtn: {
-      html: "EnglishConcepts/Level-5/Relative Clauses/Non-Defining Relative Clauses/nonDefiningRelativeClauses.html",
-      js: "EnglishConcepts/Level-5/Relative Clauses/Non-Defining Relative Clauses/nonDefiningRelativeClauses.js",
+      html: "/EnglishConcepts/Level-5/Relative Clauses/Non-Defining Relative Clauses/nonDefiningRelativeClauses.html",
+      js: "/EnglishConcepts/Level-5/Relative Clauses/Non-Defining Relative Clauses/nonDefiningRelativeClauses.js",
     },
     // Reported Speech
     reported_speechBtn: {
-      html: "EnglishConcepts/Level-5/Reported Speach/reportedSpeach.html",
-      js: "EnglishConcepts/Level-5/Reported Speach/reportedSpeach.js",
+      html: "/EnglishConcepts/Level-5/Reported Speach/reportedSpeach.html",
+      js: "/EnglishConcepts/Level-5/Reported Speach/reportedSpeach.js",
     },
   };
 
