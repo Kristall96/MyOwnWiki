@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dynamic.css" />
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div id="grid-container">
+      <section id="side">
+        <div id="logo">
+          <img src="" alt="Logo" />
+        </div>
+        <div id="dashboard">
+          <h2>Dashboard</h2>
+        </div>
+        <div id="leftMenu">
+          <div class="menu-item">
+            <button id="english-btn" type="button">English</button>
+          </div>
+          <div class="menu-item">
+            <button id="html-btn" type="button">HTML</button>
+          </div>
+          <div class="menu-item">
+            <button id="css-btn" type="button">CSS</button>
+            <div class="submenu">
+              <button id="css-sub-btn" type="button">CSS</button>
+              <button id="tailwind-btn" type="button">Tailwind</button>
+              <button id="scss-btn" type="button">Scss</button>
+            </div>
+          </div>
+          <div class="menu-item">
+            <button id="js-btn" type="button">JavaScript</button>
+          </div>
+          <div class="menu-item">
+            <button id="react-btn" type="button">React</button>
+          </div>
+          <div class="menu-item">
+            <button id="node-btn" type="button">Node JS</button>
+          </div>
+          <div class="menu-item">
+            <button id="ts-btn" type="button">TypeScript</button>
+          </div>
+        </div>
+        <div id="settings">
+          <ul>
+            <li><button type="button">Profile</button></li>
+            <li><button type="button">Settings</button></li>
+            <li><button type="button">Account</button></li>
+            <li><button type="button">Log out</button></li>
+            <li><button id="toggle-theme" type="button">Dark Mode</button></li>
+          </ul>
+        </div>
+      </section>
+      <section id="top">
+        <div id="topDiv"><h3>Hello</h3></div>
+      </section>
+      <section id="smallMenu">
+        <div id="englishMenu" class="active">
+          <button type="button" id="level1" class="smMenu">Level 1</button>
+          <button type="button" id="level2" class="smMenu">Level 2</button>
+          <button type="button" id="level3" class="smMenu">Level 3</button>
+          <button type="button" id="level4" class="smMenu">Level 4</button>
+          <button type="button" id="level5" class="smMenu">Level 5</button>
+        </div>
+        <div id="htmlMenu">
+          <button type="button" id="level6" class="smMenu">HTML</button>
+          <button type="button" id="level7" class="smMenu">HTML</button>
+          <button type="button" id="level8" class="smMenu">HTML</button>
+          <button type="button" id="level9" class="smMenu">HTML</button>
+          <button type="button" id="level10" class="smMenu">HTML</button>
+        </div>
+        <div id="cssMenu">
+          <button type="button" id="level11" class="smMenu">CSS</button>
+          <button type="button" id="level12" class="smMenu">CSS</button>
+          <button type="button" id="level13" class="smMenu">CSS</button>
+          <button type="button" id="level14" class="smMenu">CSS</button>
+          <button type="button" id="level15" class="smMenu">CSS</button>
+        </div>
+        <div id="tailwindMenu">
+          <button type="button" id="level16" class="smMenu">Tailwind</button>
+          <button type="button" id="level17" class="smMenu">Tailwind</button>
+          <button type="button" id="level18" class="smMenu">Tailwind</button>
+          <button type="button" id="level19" class="smMenu">Tailwind</button>
+          <button type="button" id="level20" class="smMenu">Tailwind</button>
+        </div>
+        <div id="sassMenu">
+          <button type="button" id="level21" class="smMenu">Scss</button>
+          <button type="button" id="level22" class="smMenu">Scss</button>
+          <button type="button" id="level23" class="smMenu">Scss</button>
+          <button type="button" id="level24" class="smMenu">Scss</button>
+          <button type="button" id="level25" class="smMenu">Scss</button>
+        </div>
+        <div id="jsMenu">
+          <button type="button" class="smMenu">JavaScript</button>
+          <button type="button" class="smMenu">JavaScript</button>
+          <button type="button" class="smMenu">JavaScript</button>
+          <button type="button" class="smMenu">JavaScript</button>
+          <button type="button" class="smMenu">JavaScript</button>
+        </div>
+        <div id="reactMenu">
+          <button type="button" class="smMenu">React</button>
+          <button type="button" class="smMenu">React</button>
+          <button type="button" class="smMenu">React</button>
+          <button type="button" class="smMenu">React</button>
+          <button type="button" class="smMenu">React</button>
+        </div>
+        <div id="nodeMenu">
+          <button type="button" class="smMenu">Node</button>
+          <button type="button" class="smMenu">Node</button>
+          <button type="button" class="smMenu">Node</button>
+          <button type="button" class="smMenu">Node</button>
+          <button type="button" class="smMenu">Node</button>
+        </div>
+        <div id="tsMenu">
+          <button type="button" class="smMenu">TypeScript</button>
+          <button type="button" class="smMenu">TypeScript</button>
+          <button type="button" class="smMenu">TypeScript</button>
+          <button type="button" class="smMenu">TypeScript</button>
+          <button type="button" class="smMenu">TypeScript</button>
+        </div>
+      </section>
+      <section id="mainContent">
+        <div id="mainContentDiv">
+          <div id="level-1-quizOptions" class="active">
+            <button type="button" id="pos-btn" class="level-1">
+              Part of Speech
+            </button>
+            <button type="button" id="ss-btn" class="level-1">
+              Sentence Structure
+            </button>
+            <button type="button" id="tenses-btn" class="level-1">
+              Tenses
+            </button>
+            <button type="button" id="voice-btn" class="level-1">Voice</button>
+            <button type="button" id="mood-btn" class="level-1">Mood</button>
+          </div>
+          <div id="level-2-quizOptions">
+            <button type="button" id="articles-btn" class="level-2">
+              Articles
+            </button>
+            <button type="button" id="modifiers-btn" class="level-2">
+              Modifiers
+            </button>
+            <button type="button" id="pronouns-btn" class="level-2">
+              Pronouns
+            </button>
+            <button type="button" id="punctuations-btn" class="level-2">
+              Punctuation
+            </button>
+            <button type="button" id="subject-btn" class="level-2">
+              Subject
+            </button>
+          </div>
+          <div id="level-3-quizOptions">
+            <button type="button" id="conditionals-btn" class="level-3">
+              Conditionals
+            </button>
+            <button type="button" id="conjunctions-btn" class="level-3">
+              Conjunctions
+            </button>
+            <button type="button" id="d-and-i-btn" class="level-3">
+              D & I Speech
+            </button>
+            <button type="button" id="negation-btn" class="level-3">
+              Negation
+            </button>
+            <button type="button" id="questions-btn" class="level-3">
+              Questions
+            </button>
+          </div>
+          <div id="level-4-quizOptions">
+            <button type="button" id="ellipsis-btn" class="level-4">
+              Ellipsis
+            </button>
+            <button type="button" id="idioms-btn" class="level-4">
+              Idioms
+            </button>
+            <button type="button" id="inversion-btn" class="level-4">
+              Inversion
+            </button>
+            <button type="button" id="modifiers2-btn" class="level-4">
+              Modifiers2
+            </button>
+            <button type="button" id="parallelism-btn" class="level-4">
+              Parallelism
+            </button>
+          </div>
+          <div id="level-5-quizOptions">
+            <button type="button" id="appositives-btn" class="level-5">
+              Appositives
+            </button>
+            <button type="button" id="gerund-btn" class="level-5">
+              Gerunds
+            </button>
+            <button type="button" id="non-infinitive-btn" class="level-5">
+              Non-Infinitive
+            </button>
+            <button type="button" id="relative-btn" class="level-5">
+              Relative Clauses
+            </button>
+            <button type="button" id="reported-btn" class="level-5">
+              Reported Speech
+            </button>
+          </div>
+        </div>
+        <div id="mainContentSubDiv">
+          <div id="quizOptions">
+            <!-- Level 1 -->
+            <div id="partOfSpeech-Quiz" class="active">
+              <button id="adjBtn" class="quizOptions-1" type="button">
+                Adjectives
+              </button>
+              <button id="advBtn" class="quizOptions-1" type="button">
+                Adverbs
+              </button>
+              <button id="conjBtn" class="quizOptions-1" type="button">
+                Conjunctions
+              </button>
+              <button id="interBtn" class="quizOptions-1" type="button">
+                Interjections
+              </button>
+              <button id="nouBtn" class="quizOptions-1" type="button">
+                Nouns
+              </button>
+              <button id="prepBtn" class="quizOptions-1" type="button">
+                Prepositions
+              </button>
+              <button id="pronBtn" class="quizOptions-1" type="button">
+                Pronouns
+              </button>
+              <button id="verBtn" class="quizOptions-1" type="button">
+                Verbs
+              </button>
+            </div>
+
+            <div id="sentence-Structure-Quiz">
+              <button id="clausesBtn" class="quizOptions-1" type="button">
+                Clauses
+              </button>
+              <button id="d_s_clausesBtn" class="quizOptions-1" type="button">
+                D-S-Clauses
+              </button>
+              <button id="direct_objectBtn" class="quizOptions-1" type="button">
+                Direct Object
+              </button>
+              <button
+                id="independent_clausesBtn"
+                class="quizOptions-1"
+                type="button">
+                Independent Clauses
+              </button>
+              <button
+                id="indirect_objectBtn"
+                class="quizOptions-1"
+                type="button">
+                Indirect Object
+              </button>
+              <button id="objectBtn" class="quizOptions-1" type="button">
+                Object
+              </button>
+              <button id="phrasesBtn" class="quizOptions-1" type="button">
+                Phrases
+              </button>
+              <button id="predicateBtn" class="quizOptions-1" type="button">
+                Predicate
+              </button>
+              <button id="subjectBtn" class="quizOptions-1" type="button">
+                Subject
+              </button>
+            </div>
+            <!-- Tenses Quiz Buttons -->
+            <div id="tenses-Quiz">
+              <button
+                id="future_continuousBtn"
+                class="quizOptions-1"
+                type="button">
+                Future Continuous
+              </button>
+              <button
+                id="future_perfectBtn"
+                class="quizOptions-1"
+                type="button">
+                Future Perfect
+              </button>
+              <button
+                id="future_perfect_continuousBtn"
+                class="quizOptions-1"
+                type="button">
+                Future Perfect Continuous
+              </button>
+              <button id="simple_futureBtn" class="quizOptions-1" type="button">
+                Simple Future
+              </button>
+              <button
+                id="past_continuousBtn"
+                class="quizOptions-1"
+                type="button">
+                Past Continuous
+              </button>
+              <button id="past_perfectBtn" class="quizOptions-1" type="button">
+                Past Perfect
+              </button>
+              <button
+                id="past_perfect_continuousBtn"
+                class="quizOptions-1"
+                type="button">
+                Past Perfect Continuous
+              </button>
+              <button id="past_simpleBtn" class="quizOptions-1" type="button">
+                Past Simple
+              </button>
+              <button
+                id="present_continuousBtn"
+                class="quizOptions-1"
+                type="button">
+                Present Continuous
+              </button>
+              <button
+                id="present_perfectBtn"
+                class="quizOptions-1"
+                type="button">
+                Present Perfect
+              </button>
+              <button
+                id="present_perfect_continuousBtn"
+                class="quizOptions-1"
+                type="button">
+                Present Perfect Continuous
+              </button>
+              <button
+                id="present_simpleBtn"
+                class="quizOptions-1"
+                type="button">
+                Present Simple
+              </button>
+            </div>
+            <!-- Voice Quiz Buttons-->
+            <div id="voice-Quiz">
+              <button id="active_voiceBtn" class="quizOptions-1" type="button">
+                Active Voice
+              </button>
+              <button id="passive_voiceBtn" class="quizOptions-1" type="button">
+                Passive Voice
+              </button>
+            </div>
+            <!-- Mood Quiz Buttons -->
+            <div id="mood-Quiz">
+              <button
+                id="imperative_moodBtn"
+                class="quizOptions-1"
+                type="button">
+                Imperative Mood
+              </button>
+              <button
+                id="indicative_moodBtn"
+                class="quizOptions-1"
+                type="button">
+                Indicative Mood
+              </button>
+              <button
+                id="subjunctive_moodBtn"
+                class="quizOptions-1"
+                type="button">
+                Subjunctive Mood
+              </button>
+            </div>
+
+            <!-- Level 2 -->
+            <!-- Article Quiz Buttons -->
+            <div id="article-Quiz">
+              <button
+                id="definite_articleBtn"
+                class="quizOptions-1"
+                type="button">
+                Definite Article
+              </button>
+              <button id="determinersBtn" class="quizOptions-1" type="button">
+                Determiners
+              </button>
+              <button
+                id="indefinite_articleBtn"
+                class="quizOptions-1"
+                type="button">
+                Indefinite Article
+              </button>
+            </div>
+            <!-- Modifier Quiz Buttons -->
+            <div id="modifier-Quiz">
+              <button
+                id="adjective_adverbsBtn"
+                class="quizOptions-1"
+                type="button">
+                Adjective Adverbs
+              </button>
+            </div>
+            <!-- Pronouns Quiz Button -->
+            <div id="pronoun-Quiz">
+              <button id="pronounBtn" class="quizOptions-1" type="button">
+                Pronouns
+              </button>
+            </div>
+
+            <!-- Punctuation Quiz Button -->
+            <div id="punctuation-Quiz">
+              <button id="apostrophesBtn" class="quizOptions-1" type="button">
+                Apostrophes
+              </button>
+              <button id="colonsBtn" class="quizOptions-1" type="button">
+                Colons
+              </button>
+              <button id="commasBtn" class="quizOptions-1" type="button">
+                Commas
+              </button>
+              <button id="dashesBtn" class="quizOptions-1" type="button">
+                Dashes
+              </button>
+              <button
+                id="exclamation_markBtn"
+                class="quizOptions-1"
+                type="button">
+                Exclamation Mark
+              </button>
+              <button id="parenthesesBtn" class="quizOptions-1" type="button">
+                Parentheses
+              </button>
+              <button id="periodsBtn" class="quizOptions-1" type="button">
+                Periods
+              </button>
+              <button id="question_markBtn" class="quizOptions-1" type="button">
+                Question Mark
+              </button>
+              <button
+                id="quotation_markBtn"
+                class="quizOptions-1"
+                type="button">
+                Quotation Mark
+              </button>
+              <button id="semicolonsBtn" class="quizOptions-1" type="button">
+                Semicolons
+              </button>
+            </div>
+            <!-- Subject Quiz Button -->
+            <div id="subject-agreement-Quiz">
+              <button
+                id="subject_agreementBtn"
+                class="quizOptions-1"
+                type="button">
+                Subject Agreement
+              </button>
+            </div>
+            <!-- Level 3 -->
+            <!-- Conditionals Quiz Button -->
+            <div id="conditionals-Quiz">
+              <button
+                id="zero_conditionalBtn"
+                class="quizOptions-1"
+                type="button">
+                Zero Conditional
+              </button>
+              <button
+                id="first_conditionalBtn"
+                class="quizOptions-1"
+                type="button">
+                First Conditional
+              </button>
+              <button
+                id="second_conditionalBtn"
+                class="quizOptions-1"
+                type="button">
+                Second Conditional
+              </button>
+              <button
+                id="third_conditionalBtn"
+                class="quizOptions-1"
+                type="button">
+                Third Conditional
+              </button>
+            </div>
+            <!-- Conjunctions Quiz Button -->
+            <div id="conjunctions-Quiz">
+              <button
+                id="coordinating_conjunctionsBtn"
+                class="quizOptions-1"
+                type="button">
+                Coordinating Conjunctions
+              </button>
+              <button
+                id="correlative_conjunctionsBtn"
+                class="quizOptions-1"
+                type="button">
+                Correlative Conjunctions
+              </button>
+              <button
+                id="subordinating_conjunctionsBtn"
+                class="quizOptions-1"
+                type="button">
+                Subordinating Conjunctions
+              </button>
+            </div>
+            <!-- Direct and Indirec Speech Quiz Button -->
+            <div id="direct-and-indirect-Quiz">
+              <button id="direct_speechBtn" class="quizOptions-1" type="button">
+                Direct Speech
+              </button>
+              <button
+                id="indirect_speechBtn"
+                class="quizOptions-1"
+                type="button">
+                Indirect Speech
+              </button>
+            </div>
+            <!-- Negations Quiz Button -->
+            <div id="negation-Quiz">
+              <button id="negationBtn" class="quizOptions-1" type="button">
+                Negation
+              </button>
+            </div>
+            <!-- Questions Quiz Button -->
+            <div id="question-Quiz">
+              <button id="tag_questionBtn" class="quizOptions-1" type="button">
+                Tag Questions
+              </button>
+              <button id="wh_questionBtn" class="quizOptions-1" type="button">
+                WH Questions
+              </button>
+              <button
+                id="yes_or_no_questionBtn"
+                class="quizOptions-1"
+                type="button">
+                Yes or No Questions
+              </button>
+            </div>
+            <!-- Level 4 -->
+            <!-- Ellipsis Quiz Button -->
+            <div id="ellipsis-Quiz">
+              <button id="ellipsisBtn" class="quizOptions-1" type="button">
+                Ellipsis
+              </button>
+              <button id="substitutionBtn" class="quizOptions-1" type="button">
+                Substitution
+              </button>
+            </div>
+            <!-- Idioms Quiz Button -->
+            <div id="idioms-Quiz">
+              <button id="idiomsBtn" class="quizOptions-1" type="button">
+                Idioms
+              </button>
+              <button id="phrasal_VerbBtn" class="quizOptions-1" type="button">
+                Phrasel Verb
+              </button>
+            </div>
+            <!-- Inversion Quiz Button -->
+            <div id="inversion-Quiz">
+              <button id="inversionBtn" class="quizOptions-1" type="button">
+                Inversion
+              </button>
+            </div>
+            <!-- Modifiers2 Quiz Button -->
+            <div id="modifiers2-Quiz">
+              <button
+                id="dangling_modifiersBtn"
+                class="quizOptions-1"
+                type="button">
+                Dangling Modifiers
+              </button>
+              <button
+                id="misplaced_modifiersBtn"
+                class="quizOptions-1"
+                type="button">
+                Misplaced Modifiers
+              </button>
+            </div>
+            <!-- Parallelism Quiz Button -->
+            <div id="parallelism-Quiz">
+              <button id="parallelism_Btn" class="quizOptions-1" type="button">
+                Parallelism
+              </button>
+            </div>
+
+            <!-- Level 5 -->
+            <!-- Appositives Quiz Button -->
+            <div id="appositives-Quiz">
+              <button id="appositivesBtn" class="quizOptions-1" type="button">
+                Appositives
+              </button>
+            </div>
+            <!-- Gerunds Quiz Button -->
+            <div id="gerunds-Quiz">
+              <button id="gerundsBtn" class="quizOptions-1" type="button">
+                Gerunds
+              </button>
+            </div>
+            <!-- Non-Finite Verbs Quiz Button -->
+            <div id="non-finite-verbs-Quiz">
+              <button id="gerundsBtn2" class="quizOptions-1" type="button">
+                Gerunds
+              </button>
+              <button id="infinitivesBtn" class="quizOptions-1" type="button">
+                Infinitives
+              </button>
+              <button id="participlesBtn" class="quizOptions-1" type="button">
+                Participles
+              </button>
+            </div>
+            <!-- Relative Clauses Quiz Button -->
+            <div id="relative-clauses-Quiz">
+              <button
+                id="defining_relative_clausesBtn"
+                class="quizOptions-1"
+                type="button">
+                Defining Relative Clauses
+              </button>
+              <button
+                id="non_defining_relative_clausesBtn"
+                class="quizOptions-1"
+                type="button">
+                Non-Defining Relative Clauses
+              </button>
+            </div>
+            <!-- Reported Speech Quiz Button -->
+            <div id="reported-speech-Quiz">
+              <button
+                id="reported_speechBtn"
+                class="quizOptions-1"
+                type="button">
+                Reported Speech
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="dynamicContent"></div>
+      </section>
+
+      <section id="foot">
+        <footer id="footer"><h3>Hello Footer</h3></footer>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

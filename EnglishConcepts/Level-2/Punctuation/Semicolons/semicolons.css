@@ -1,0 +1,165 @@
+body {
+  background-color: #fff5e6; /* Creamy background for a retro feel */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Pacifico", cursive; /* Playful, retro font */
+  color: #333333; /* Soft dark grey for text */
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; Ensure body takes full height */
+  box-sizing: border-box;
+}
+
+#quizContainer {
+  width: 90%; /* Make the container responsive */
+  max-width: 650px; /* Maintain a max width */
+  padding: 2rem; /* Use rem for padding */
+  background-color: #ffebcd; /* Soft, warm white for the container */
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+#quizContainer:hover {
+  transform: translateY(-10px); /* Slight lift effect on hover */
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+h2 {
+  text-align: left;
+  color: #ff6347; /* Bold tomato red for headings */
+  margin-bottom: 1.5rem; /* Space below headings */
+  font-size: 1.5rem; /* Increased font size */
+}
+
+#optionsDiv {
+  padding: 1rem; /* Use rem for padding */
+  background-color: #ffdab9; /* Warm beige for options background */
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for options */
+  margin-bottom: 1.5rem; /* Space between options and the next element */
+}
+
+#optionsInnerDiv {
+  margin-bottom: 0.75rem; /* Adjust margin for better spacing */
+}
+
+input[type="radio"] {
+  accent-color: #ffa500; /* Bright orange for radio buttons */
+  cursor: pointer; /* Pointer cursor for better UX */
+  transform: scale(1.2); /* Slightly larger radio buttons for a retro touch */
+}
+
+input[type="radio"]:hover {
+  transform: scale(1.3); /* Slightly larger on hover */
+  transition: transform 0.2s ease; /* Smooth hover effect */
+}
+
+/* Correct, Incorrect, and No Answer Styles */
+.correct {
+  color: #4caf50; /* Vibrant green for correct answers */
+  font-weight: bold;
+}
+
+.incorrect {
+  color: #e53935; /* Bold red for incorrect answers */
+  font-weight: bold;
+}
+
+.no-answer {
+  color: #ff9800; /* Warm orange for no answer selected */
+  font-weight: bold;
+}
+
+.explanation {
+  background-color: #faf3e0; /* Soft, warm beige for explanation background */
+  color: #3c3c3c; /* Darker grey for explanation text */
+  padding: 1rem; /* Use rem for padding */
+  border-radius: 12px;
+  margin-top: 1.5rem; /* Adjust spacing */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for explanations */
+}
+
+button {
+  background-color: #ff6347; /* Tomato red for buttons */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem; /* Use rem for padding */
+  border-radius: 12px;
+  cursor: pointer;
+  border: none; /* Remove border for cleaner look */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for buttons */
+}
+
+button:hover {
+  background-color: #ff7f50; /* Lighter coral on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+button:active {
+  transform: translateY(0); /* Return to original position on click */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Restore original shadow */
+}
+
+.btns {
+  display: flex;
+  padding: 1rem; /* Adjust padding */
+  justify-content: space-between;
+  flex-wrap: wrap; /* Wrap buttons if screen is small */
+}
+
+#result {
+  margin-top: 0.75rem; /* Adjust spacing */
+  margin-bottom: 1.5rem; /* Adjust spacing */
+  background-color: #ffebcd; /* Match the quiz container's background */
+  border-radius: 12px; /* Match other rounded corners */
+  padding: 1.5rem; /* Adjust padding */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+#resultText {
+  text-align: center; /* Center align the result text */
+  font-size: 1.2rem; /* Increase font size for readability */
+  color: #333333; /* Ensure the text color is consistent */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.2rem; /* Adjust heading size */
+  }
+
+  #quizContainer {
+    padding: 1.5rem; /* Reduce padding on smaller screens */
+  }
+
+  button {
+    width: 100%; /* Make buttons full width on smaller screens */
+    margin-bottom: 1rem; /* Add margin to buttons */
+  }
+
+  .btns {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1rem; /* Further reduce heading size */
+  }
+
+  #quizContainer {
+    padding: 1rem; /* Further reduce padding */
+  }
+
+  #optionsDiv {
+    padding: 0.75rem; /* Reduce padding */
+  }
+
+  .btns {
+    padding: 0.5rem; /* Reduce padding */
+  }
+}
