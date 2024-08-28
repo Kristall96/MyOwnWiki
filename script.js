@@ -639,6 +639,20 @@ document.addEventListener("DOMContentLoaded", function () {
       html: "/EnglishConcepts/Level-3/Conditionals/Third-Conditional/thirdConditional.html",
       js: "/EnglishConcepts/Level-3/Conditionals/Third-Conditional/thirdConditional.js",
     },
+    // Conjunctions
+    coordinating_conjunctionsBtn: {
+      html: "/EnglishConcepts/Level-3/Conjunctions/Coordinating-Conjunctions/coordinatingConjunctions.html",
+      js: "/EnglishConcepts/Level-3/Conjunctions/Coordinating-Conjunctions/coordinatingConjunctions.js",
+    },
+    correlative_conjunctionsBtn: {
+      html: "/EnglishConcepts/Level-3/Conjunctions/Correlative-Conjunctions/correlativeConjunctions.html",
+      js: "/EnglishConcepts/Level-3/Conjunctions/Correlative-Conjunctions/correlativeConjunctions.js",
+    },
+    subordinating_conjunctionsBtn: {
+      html: "/EnglishConcepts/Level-3/Conjunctions/Subordinating-Conjunctions/subordinatingConjunctions.html",
+      js: "/EnglishConcepts/Level-3/Conjunctions/Subordinating-Conjunctions/subordinatingConjunctions.js",
+    },
+
     // Direct and Indirect Speech
     direct_speechBtn: {
       html: "/EnglishConcepts/Level-3/Direct-and-Indirect-Speach/Direct-Speach/directSpeach.html",
