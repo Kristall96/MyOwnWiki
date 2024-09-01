@@ -19,31 +19,43 @@
         </div>
         <div id="leftMenu">
           <div class="menu-item">
-            <button id="english-btn" type="button">English</button>
+            <button id="english-btn" class="mainBtns" type="button">
+              English
+            </button>
           </div>
           <div class="menu-item">
-            <button id="html-btn" type="button">HTML</button>
+            <button id="html-btn" class="mainBtns" type="button">HTML</button>
           </div>
           <div class="menu-item">
-            <button id="css-btn" type="button">CSS</button>
+            <button id="css-btn" class="mainBtns" type="button">CSS</button>
             <div class="submenu">
-              <button id="css-sub-btn" type="button">CSS</button>
-              <button id="tailwind-btn" type="button">Tailwind</button>
-              <button id="scss-btn" type="button">Scss</button>
+              <button id="css-sub-btn" class="mainBtns" type="button">
+                CSS
+              </button>
+              <button id="tailwind-btn" class="mainBtns" type="button">
+                Tailwind
+              </button>
+              <button id="scss-btn" class="mainBtns" type="button">Scss</button>
             </div>
           </div>
           <div class="menu-item">
-            <button id="js-btn" type="button">JavaScript</button>
+            <button id="js-btn" class="mainBtns" type="button">
+              JavaScript
+            </button>
           </div>
           <div class="menu-item">
-            <button id="react-btn" type="button">React</button>
+            <button id="react-btn" class="mainBtns" type="button">React</button>
           </div>
           <div class="menu-item">
-            <button id="node-btn" type="button">Node JS</button>
+            <button id="node-btn" class="mainBtns" type="button">
+              Node JS
+            </button>
           </div>
-          <div class="menu-item">
-            <button id="ts-btn" type="button">TypeScript</button>
-          </div>
+          <!-- <div class="menu-item">
+            <button id="ts-btn" class="mainBtns" type="button">
+              TypeScript
+            </button>
+          </div> -->
         </div>
         <div id="settings">
           <ul>
@@ -115,13 +127,13 @@
           <button type="button" class="smMenu">Node</button>
           <button type="button" class="smMenu">Node</button>
         </div>
-        <div id="tsMenu">
+        <!-- <div id="tsMenu">
           <button type="button" class="smMenu">TypeScript</button>
           <button type="button" class="smMenu">TypeScript</button>
           <button type="button" class="smMenu">TypeScript</button>
           <button type="button" class="smMenu">TypeScript</button>
           <button type="button" class="smMenu">TypeScript</button>
-        </div>
+        </div> -->
       </section>
       <section id="mainContent">
         <div id="mainContentDiv">
@@ -183,7 +195,7 @@
               Inversion
             </button>
             <button type="button" id="modifiers2-btn" class="level-4">
-              Modifiers2
+              Modifiers
             </button>
             <button type="button" id="parallelism-btn" class="level-4">
               Parallelism
@@ -208,432 +220,469 @@
           </div>
         </div>
         <div id="mainContentSubDiv">
-          <div id="quizOptions">
-            <!-- Level 1 -->
-            <div id="partOfSpeech-Quiz" class="active">
-              <button id="adjBtn" class="quizOptions-1" type="button">
-                Adjectives
-              </button>
-              <button id="advBtn" class="quizOptions-1" type="button">
-                Adverbs
-              </button>
-              <button id="conjBtn" class="quizOptions-1" type="button">
-                Conjunctions
-              </button>
-              <button id="interBtn" class="quizOptions-1" type="button">
-                Interjections
-              </button>
-              <button id="nouBtn" class="quizOptions-1" type="button">
-                Nouns
-              </button>
-              <button id="prepBtn" class="quizOptions-1" type="button">
-                Prepositions
-              </button>
-              <button id="pronBtn" class="quizOptions-1" type="button">
-                Pronouns
-              </button>
-              <button id="verBtn" class="quizOptions-1" type="button">
-                Verbs
-              </button>
-            </div>
+          <div id="quizOptionsOutter">
+            <div id="quizOptions">
+              <!-- Level 1 -->
+              <div id="partOfSpeech-Quiz" class="active">
+                <button id="adjBtn" class="quizOptions-1" type="button">
+                  Adjectives
+                </button>
+                <button id="advBtn" class="quizOptions-1" type="button">
+                  Adverbs
+                </button>
+                <button id="conjBtn" class="quizOptions-1" type="button">
+                  Conjunctions
+                </button>
+                <button id="interBtn" class="quizOptions-1" type="button">
+                  Interjections
+                </button>
+                <button id="nouBtn" class="quizOptions-1" type="button">
+                  Nouns
+                </button>
+                <button id="prepBtn" class="quizOptions-1" type="button">
+                  Prepositions
+                </button>
+                <button id="pronBtn" class="quizOptions-1" type="button">
+                  Pronouns
+                </button>
+                <button id="verBtn" class="quizOptions-1" type="button">
+                  Verbs
+                </button>
+              </div>
 
-            <div id="sentence-Structure-Quiz">
-              <button id="clausesBtn" class="quizOptions-1" type="button">
-                Clauses
-              </button>
-              <button id="d_s_clausesBtn" class="quizOptions-1" type="button">
-                D-S-Clauses
-              </button>
-              <button id="direct_objectBtn" class="quizOptions-1" type="button">
-                Direct Object
-              </button>
-              <button
-                id="independent_clausesBtn"
-                class="quizOptions-1"
-                type="button">
-                Independent Clauses
-              </button>
-              <button
-                id="indirect_objectBtn"
-                class="quizOptions-1"
-                type="button">
-                Indirect Object
-              </button>
-              <button id="objectBtn" class="quizOptions-1" type="button">
-                Object
-              </button>
-              <button id="phrasesBtn" class="quizOptions-1" type="button">
-                Phrases
-              </button>
-              <button id="predicateBtn" class="quizOptions-1" type="button">
-                Predicate
-              </button>
-              <button id="subjectBtn" class="quizOptions-1" type="button">
-                Subject
-              </button>
-            </div>
-            <!-- Tenses Quiz Buttons -->
-            <div id="tenses-Quiz">
-              <button
-                id="future_continuousBtn"
-                class="quizOptions-1"
-                type="button">
-                Future Continuous
-              </button>
-              <button
-                id="future_perfectBtn"
-                class="quizOptions-1"
-                type="button">
-                Future Perfect
-              </button>
-              <button
-                id="future_perfect_continuousBtn"
-                class="quizOptions-1"
-                type="button">
-                Future Perfect Continuous
-              </button>
-              <button id="simple_futureBtn" class="quizOptions-1" type="button">
-                Simple Future
-              </button>
-              <button
-                id="past_continuousBtn"
-                class="quizOptions-1"
-                type="button">
-                Past Continuous
-              </button>
-              <button id="past_perfectBtn" class="quizOptions-1" type="button">
-                Past Perfect
-              </button>
-              <button
-                id="past_perfect_continuousBtn"
-                class="quizOptions-1"
-                type="button">
-                Past Perfect Continuous
-              </button>
-              <button id="past_simpleBtn" class="quizOptions-1" type="button">
-                Past Simple
-              </button>
-              <button
-                id="present_continuousBtn"
-                class="quizOptions-1"
-                type="button">
-                Present Continuous
-              </button>
-              <button
-                id="present_perfectBtn"
-                class="quizOptions-1"
-                type="button">
-                Present Perfect
-              </button>
-              <button
-                id="present_perfect_continuousBtn"
-                class="quizOptions-1"
-                type="button">
-                Present Perfect Continuous
-              </button>
-              <button
-                id="present_simpleBtn"
-                class="quizOptions-1"
-                type="button">
-                Present Simple
-              </button>
-            </div>
-            <!-- Voice Quiz Buttons-->
-            <div id="voice-Quiz">
-              <button id="active_voiceBtn" class="quizOptions-1" type="button">
-                Active Voice
-              </button>
-              <button id="passive_voiceBtn" class="quizOptions-1" type="button">
-                Passive Voice
-              </button>
-            </div>
-            <!-- Mood Quiz Buttons -->
-            <div id="mood-Quiz">
-              <button
-                id="imperative_moodBtn"
-                class="quizOptions-1"
-                type="button">
-                Imperative Mood
-              </button>
-              <button
-                id="indicative_moodBtn"
-                class="quizOptions-1"
-                type="button">
-                Indicative Mood
-              </button>
-              <button
-                id="subjunctive_moodBtn"
-                class="quizOptions-1"
-                type="button">
-                Subjunctive Mood
-              </button>
-            </div>
+              <div id="sentence-Structure-Quiz">
+                <button id="clausesBtn" class="quizOptions-1" type="button">
+                  Clauses
+                </button>
+                <button id="d_s_clausesBtn" class="quizOptions-1" type="button">
+                  D-S-Clauses
+                </button>
+                <button
+                  id="independent_clausesBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Independent Clauses
+                </button>
+                <button
+                  id="direct_objectBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Direct Object
+                </button>
+                <button
+                  id="indirect_objectBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Indirect Object
+                </button>
+                <button id="objectBtn" class="quizOptions-1" type="button">
+                  Object
+                </button>
+                <button id="phrasesBtn" class="quizOptions-1" type="button">
+                  Phrases
+                </button>
+                <button id="predicateBtn" class="quizOptions-1" type="button">
+                  Predicate
+                </button>
+                <button id="subjectBtn" class="quizOptions-1" type="button">
+                  Subject
+                </button>
+              </div>
+              <!-- Tenses Quiz Buttons -->
+              <div id="tenses-Quiz">
+                <button
+                  id="future_continuousBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Future Continuous
+                </button>
+                <button
+                  id="future_perfectBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Future Perfect
+                </button>
+                <button
+                  id="future_perfect_continuousBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Future Perfect Continuous
+                </button>
+                <button
+                  id="simple_futureBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Simple Future
+                </button>
+                <button
+                  id="past_continuousBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Past Continuous
+                </button>
+                <button
+                  id="past_perfectBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Past Perfect
+                </button>
+                <button
+                  id="past_perfect_continuousBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Past Perfect Continuous
+                </button>
+                <button id="past_simpleBtn" class="quizOptions-1" type="button">
+                  Past Simple
+                </button>
+                <button
+                  id="present_continuousBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Present Continuous
+                </button>
+                <button
+                  id="present_perfectBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Present Perfect
+                </button>
+                <button
+                  id="present_perfect_continuousBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Present Perfect Continuous
+                </button>
+                <button
+                  id="present_simpleBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Present Simple
+                </button>
+              </div>
+              <!-- Voice Quiz Buttons-->
+              <div id="voice-Quiz">
+                <button
+                  id="active_voiceBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Active Voice
+                </button>
+                <button
+                  id="passive_voiceBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Passive Voice
+                </button>
+              </div>
+              <!-- Mood Quiz Buttons -->
+              <div id="mood-Quiz">
+                <button
+                  id="imperative_moodBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Imperative Mood
+                </button>
+                <button
+                  id="indicative_moodBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Indicative Mood
+                </button>
+                <button
+                  id="subjunctive_moodBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Subjunctive Mood
+                </button>
+              </div>
 
-            <!-- Level 2 -->
-            <!-- Article Quiz Buttons -->
-            <div id="article-Quiz">
-              <button
-                id="definite_articleBtn"
-                class="quizOptions-1"
-                type="button">
-                Definite Article
-              </button>
-              <button id="determinersBtn" class="quizOptions-1" type="button">
-                Determiners
-              </button>
-              <button
-                id="indefinite_articleBtn"
-                class="quizOptions-1"
-                type="button">
-                Indefinite Article
-              </button>
-            </div>
-            <!-- Modifier Quiz Buttons -->
-            <div id="modifier-Quiz">
-              <button
-                id="adjective_adverbsBtn"
-                class="quizOptions-1"
-                type="button">
-                Adjective Adverbs
-              </button>
-            </div>
-            <!-- Pronouns Quiz Button -->
-            <div id="pronoun-Quiz">
-              <button id="pronounBtn" class="quizOptions-1" type="button">
-                Pronouns
-              </button>
-            </div>
+              <!-- Level 2 -->
+              <!-- Article Quiz Buttons -->
+              <div id="article-Quiz">
+                <button
+                  id="definite_articleBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Definite Article
+                </button>
+                <button id="determinersBtn" class="quizOptions-1" type="button">
+                  Determiners
+                </button>
+                <button
+                  id="indefinite_articleBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Indefinite Article
+                </button>
+              </div>
+              <!-- Modifier Quiz Buttons -->
+              <div id="modifier-Quiz">
+                <button
+                  id="adjective_adverbsBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Adjective Adverbs
+                </button>
+              </div>
+              <!-- Pronouns Quiz Button -->
+              <div id="pronoun-Quiz">
+                <button id="pronounBtn" class="quizOptions-1" type="button">
+                  Pronouns
+                </button>
+              </div>
 
-            <!-- Punctuation Quiz Button -->
-            <div id="punctuation-Quiz">
-              <button id="apostrophesBtn" class="quizOptions-1" type="button">
-                Apostrophes
-              </button>
-              <button id="colonsBtn" class="quizOptions-1" type="button">
-                Colons
-              </button>
-              <button id="commasBtn" class="quizOptions-1" type="button">
-                Commas
-              </button>
-              <button id="dashesBtn" class="quizOptions-1" type="button">
-                Dashes
-              </button>
-              <button
-                id="exclamation_markBtn"
-                class="quizOptions-1"
-                type="button">
-                Exclamation Mark
-              </button>
-              <button id="parenthesesBtn" class="quizOptions-1" type="button">
-                Parentheses
-              </button>
-              <button id="periodsBtn" class="quizOptions-1" type="button">
-                Periods
-              </button>
-              <button id="question_markBtn" class="quizOptions-1" type="button">
-                Question Mark
-              </button>
-              <button
-                id="quotation_markBtn"
-                class="quizOptions-1"
-                type="button">
-                Quotation Mark
-              </button>
-              <button id="semicolonsBtn" class="quizOptions-1" type="button">
-                Semicolons
-              </button>
-            </div>
-            <!-- Subject Quiz Button -->
-            <div id="subject-agreement-Quiz">
-              <button
-                id="subject_agreementBtn"
-                class="quizOptions-1"
-                type="button">
-                Subject Agreement
-              </button>
-            </div>
-            <!-- Level 3 -->
-            <!-- Conditionals Quiz Button -->
-            <div id="conditionals-Quiz">
-              <button
-                id="zero_conditionalBtn"
-                class="quizOptions-1"
-                type="button">
-                Zero Conditional
-              </button>
-              <button
-                id="first_conditionalBtn"
-                class="quizOptions-1"
-                type="button">
-                First Conditional
-              </button>
-              <button
-                id="second_conditionalBtn"
-                class="quizOptions-1"
-                type="button">
-                Second Conditional
-              </button>
-              <button
-                id="third_conditionalBtn"
-                class="quizOptions-1"
-                type="button">
-                Third Conditional
-              </button>
-            </div>
-            <!-- Conjunctions Quiz Button -->
-            <div id="conjunctions-Quiz">
-              <button
-                id="coordinating_conjunctionsBtn"
-                class="quizOptions-1"
-                type="button">
-                Coordinating Conjunctions
-              </button>
-              <button
-                id="correlative_conjunctionsBtn"
-                class="quizOptions-1"
-                type="button">
-                Correlative Conjunctions
-              </button>
-              <button
-                id="subordinating_conjunctionsBtn"
-                class="quizOptions-1"
-                type="button">
-                Subordinating Conjunctions
-              </button>
-            </div>
-            <!-- Direct and Indirec Speech Quiz Button -->
-            <div id="direct-and-indirect-Quiz">
-              <button id="direct_speechBtn" class="quizOptions-1" type="button">
-                Direct Speech
-              </button>
-              <button
-                id="indirect_speechBtn"
-                class="quizOptions-1"
-                type="button">
-                Indirect Speech
-              </button>
-            </div>
-            <!-- Negations Quiz Button -->
-            <div id="negation-Quiz">
-              <button id="negationBtn" class="quizOptions-1" type="button">
-                Negation
-              </button>
-            </div>
-            <!-- Questions Quiz Button -->
-            <div id="question-Quiz">
-              <button id="tag_questionBtn" class="quizOptions-1" type="button">
-                Tag Questions
-              </button>
-              <button id="wh_questionBtn" class="quizOptions-1" type="button">
-                WH Questions
-              </button>
-              <button
-                id="yes_or_no_questionBtn"
-                class="quizOptions-1"
-                type="button">
-                Yes or No Questions
-              </button>
-            </div>
-            <!-- Level 4 -->
-            <!-- Ellipsis Quiz Button -->
-            <div id="ellipsis-Quiz">
-              <button id="ellipsisBtn" class="quizOptions-1" type="button">
-                Ellipsis
-              </button>
-              <button id="substitutionBtn" class="quizOptions-1" type="button">
-                Substitution
-              </button>
-            </div>
-            <!-- Idioms Quiz Button -->
-            <div id="idioms-Quiz">
-              <button id="idiomsBtn" class="quizOptions-1" type="button">
-                Idioms
-              </button>
-              <button id="phrasal_VerbBtn" class="quizOptions-1" type="button">
-                Phrasel Verb
-              </button>
-            </div>
-            <!-- Inversion Quiz Button -->
-            <div id="inversion-Quiz">
-              <button id="inversionBtn" class="quizOptions-1" type="button">
-                Inversion
-              </button>
-            </div>
-            <!-- Modifiers2 Quiz Button -->
-            <div id="modifiers2-Quiz">
-              <button
-                id="dangling_modifiersBtn"
-                class="quizOptions-1"
-                type="button">
-                Dangling Modifiers
-              </button>
-              <button
-                id="misplaced_modifiersBtn"
-                class="quizOptions-1"
-                type="button">
-                Misplaced Modifiers
-              </button>
-            </div>
-            <!-- Parallelism Quiz Button -->
-            <div id="parallelism-Quiz">
-              <button id="parallelism_Btn" class="quizOptions-1" type="button">
-                Parallelism
-              </button>
-            </div>
+              <!-- Punctuation Quiz Button -->
+              <div id="punctuation-Quiz">
+                <button id="apostrophesBtn" class="quizOptions-1" type="button">
+                  Apostrophes
+                </button>
+                <button id="colonsBtn" class="quizOptions-1" type="button">
+                  Colons
+                </button>
+                <button id="commasBtn" class="quizOptions-1" type="button">
+                  Commas
+                </button>
+                <button id="dashesBtn" class="quizOptions-1" type="button">
+                  Dashes
+                </button>
+                <button
+                  id="exclamation_markBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Exclamation Mark
+                </button>
+                <button id="parenthesesBtn" class="quizOptions-1" type="button">
+                  Parentheses
+                </button>
+                <button id="periodsBtn" class="quizOptions-1" type="button">
+                  Periods
+                </button>
+                <button
+                  id="question_markBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Question Mark
+                </button>
+                <button
+                  id="quotation_markBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Quotation Mark
+                </button>
+                <button id="semicolonsBtn" class="quizOptions-1" type="button">
+                  Semicolons
+                </button>
+              </div>
+              <!-- Subject Quiz Button -->
+              <div id="subject-agreement-Quiz">
+                <button
+                  id="subject_agreementBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Subject Agreement
+                </button>
+              </div>
+              <!-- Level 3 -->
+              <!-- Conditionals Quiz Button -->
+              <div id="conditionals-Quiz">
+                <button
+                  id="zero_conditionalBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Zero Conditional
+                </button>
+                <button
+                  id="first_conditionalBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  First Conditional
+                </button>
+                <button
+                  id="second_conditionalBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Second Conditional
+                </button>
+                <button
+                  id="third_conditionalBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Third Conditional
+                </button>
+              </div>
+              <!-- Conjunctions Quiz Button -->
+              <div id="conjunctions-Quiz">
+                <button
+                  id="coordinating_conjunctionsBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Coordinating Conjunctions
+                </button>
+                <button
+                  id="correlative_conjunctionsBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Correlative Conjunctions
+                </button>
+                <button
+                  id="subordinating_conjunctionsBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Subordinating Conjunctions
+                </button>
+              </div>
+              <!-- Direct and Indirec Speech Quiz Button -->
+              <div id="direct-and-indirect-Quiz">
+                <button
+                  id="direct_speechBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Direct Speech
+                </button>
+                <button
+                  id="indirect_speechBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Indirect Speech
+                </button>
+              </div>
+              <!-- Negations Quiz Button -->
+              <div id="negation-Quiz">
+                <button id="negationBtn" class="quizOptions-1" type="button">
+                  Negation
+                </button>
+              </div>
+              <!-- Questions Quiz Button -->
+              <div id="question-Quiz">
+                <button
+                  id="tag_questionBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Tag Questions
+                </button>
+                <button id="wh_questionBtn" class="quizOptions-1" type="button">
+                  WH Questions
+                </button>
+                <button
+                  id="yes_or_no_questionBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Yes or No Questions
+                </button>
+              </div>
+              <!-- Level 4 -->
+              <!-- Ellipsis Quiz Button -->
+              <div id="ellipsis-Quiz">
+                <button id="ellipsisBtn" class="quizOptions-1" type="button">
+                  Ellipsis
+                </button>
+                <button
+                  id="substitutionBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Substitution
+                </button>
+              </div>
+              <!-- Idioms Quiz Button -->
+              <div id="idioms-Quiz">
+                <button id="idiomsBtn" class="quizOptions-1" type="button">
+                  Idioms
+                </button>
+                <button
+                  id="phrasal_VerbBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Phrasel Verb
+                </button>
+              </div>
+              <!-- Inversion Quiz Button -->
+              <div id="inversion-Quiz">
+                <button id="inversionBtn" class="quizOptions-1" type="button">
+                  Inversion
+                </button>
+              </div>
+              <!-- Modifiers2 Quiz Button -->
+              <div id="modifiers2-Quiz">
+                <button
+                  id="dangling_modifiersBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Dangling Modifiers
+                </button>
+                <button
+                  id="misplaced_modifiersBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Misplaced Modifiers
+                </button>
+              </div>
+              <!-- Parallelism Quiz Button -->
+              <div id="parallelism-Quiz">
+                <button
+                  id="parallelism_Btn"
+                  class="quizOptions-1"
+                  type="button">
+                  Parallelism
+                </button>
+              </div>
 
-            <!-- Level 5 -->
-            <!-- Appositives Quiz Button -->
-            <div id="appositives-Quiz">
-              <button id="appositivesBtn" class="quizOptions-1" type="button">
-                Appositives
-              </button>
-            </div>
-            <!-- Gerunds Quiz Button -->
-            <div id="gerunds-Quiz">
-              <button id="gerundsBtn" class="quizOptions-1" type="button">
-                Gerunds
-              </button>
-            </div>
-            <!-- Non-Finite Verbs Quiz Button -->
-            <div id="non-finite-verbs-Quiz">
-              <button id="gerundsBtn2" class="quizOptions-1" type="button">
-                Gerunds
-              </button>
-              <button id="infinitivesBtn" class="quizOptions-1" type="button">
-                Infinitives
-              </button>
-              <button id="participlesBtn" class="quizOptions-1" type="button">
-                Participles
-              </button>
-            </div>
-            <!-- Relative Clauses Quiz Button -->
-            <div id="relative-clauses-Quiz">
-              <button
-                id="defining_relative_clausesBtn"
-                class="quizOptions-1"
-                type="button">
-                Defining Relative Clauses
-              </button>
-              <button
-                id="non_defining_relative_clausesBtn"
-                class="quizOptions-1"
-                type="button">
-                Non-Defining Relative Clauses
-              </button>
-            </div>
-            <!-- Reported Speech Quiz Button -->
-            <div id="reported-speech-Quiz">
-              <button
-                id="reported_speechBtn"
-                class="quizOptions-1"
-                type="button">
-                Reported Speech
-              </button>
+              <!-- Level 5 -->
+              <!-- Appositives Quiz Button -->
+              <div id="appositives-Quiz">
+                <button id="appositivesBtn" class="quizOptions-1" type="button">
+                  Appositives
+                </button>
+              </div>
+              <!-- Gerunds Quiz Button -->
+              <div id="gerunds-Quiz">
+                <button id="gerundsBtn" class="quizOptions-1" type="button">
+                  Gerunds
+                </button>
+              </div>
+              <!-- Non-Finite Verbs Quiz Button -->
+              <div id="non-finite-verbs-Quiz">
+                <button id="gerundsBtn2" class="quizOptions-1" type="button">
+                  Gerunds
+                </button>
+                <button id="infinitivesBtn" class="quizOptions-1" type="button">
+                  Infinitives
+                </button>
+                <button id="participlesBtn" class="quizOptions-1" type="button">
+                  Participles
+                </button>
+              </div>
+              <!-- Relative Clauses Quiz Button -->
+              <div id="relative-clauses-Quiz">
+                <button
+                  id="defining_relative_clausesBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Defining Relative Clauses
+                </button>
+                <button
+                  id="non_defining_relative_clausesBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Non-Defining Relative Clauses
+                </button>
+              </div>
+              <!-- Reported Speech Quiz Button -->
+              <div id="reported-speech-Quiz">
+                <button
+                  id="reported_speechBtn"
+                  class="quizOptions-1"
+                  type="button">
+                  Reported Speech
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div id="dynamicContent"></div>
+        <div id="dynamicContentContainer">
+          <div id="dynamicContent"></div>
+        </div>
       </section>
 
       <section id="foot">

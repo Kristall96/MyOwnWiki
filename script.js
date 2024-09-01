@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Function to toggle submenus
   document.getElementById("css-btn").addEventListener("click", function () {
-    const submenu = this.nextElementSibling;
     this.parentElement.classList.toggle("active");
 
     // Optionally, close other open dropdowns
@@ -54,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let jsBtn = document.getElementById("js-btn");
   let reactBtn = document.getElementById("react-btn");
   let nodeJsBtn = document.getElementById("node-btn");
-  let tsBtn = document.getElementById("ts-btn");
+
   let tailwindBtn = document.getElementById("tailwind-btn");
   let scssBtn = document.getElementById("scss-btn");
 
@@ -65,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
   let jsMenu = document.getElementById("jsMenu");
   let reactMenu = document.getElementById("reactMenu");
   let nodeMenu = document.getElementById("nodeMenu");
-  let tsMenu = document.getElementById("tsMenu");
   let tailwindMenu = document.getElementById("tailwindMenu");
   let sassMenu = document.getElementById("sassMenu");
 
@@ -78,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       jsMenu,
       reactMenu,
       nodeMenu,
-      tsMenu,
+
       tailwindMenu,
       sassMenu,
     ];
@@ -99,7 +97,6 @@ document.addEventListener("DOMContentLoaded", function () {
   jsBtn.addEventListener("click", () => showMenu(jsMenu));
   reactBtn.addEventListener("click", () => showMenu(reactMenu));
   nodeJsBtn.addEventListener("click", () => showMenu(nodeMenu));
-  tsBtn.addEventListener("click", () => showMenu(tsMenu));
 
   // Event listeners for submenu buttons
   tailwindBtn.addEventListener("click", () => showMenu(tailwindMenu));
@@ -1070,3 +1067,64 @@ document.addEventListener("DOMContentLoaded", function () {
     .getElementById("reported_speechBtn")
     .addEventListener("click", handleButtonClick);
 });
+
+function updateMenuBasedOnScreenSize() {
+  let english = document.getElementById("english-btn");
+  let javascript = document.getElementById("js-btn");
+  let nodejs = document.getElementById("node-btn");
+  let react = document.getElementById("react-btn");
+  let ss = document.getElementById("ss-btn");
+  let pos = document.getElementById("pos-btn");
+  let dsClauses = document.getElementById("d_s_clausesBtn");
+  let idClauses = document.getElementById("independent_clausesBtn");
+  let direct = document.getElementById("direct_objectBtn");
+  let indirect = document.getElementById("indirect_objectBtn");
+  let futurePContinuous = document.getElementById(
+    "future_perfect_continuousBtn"
+  );
+  let pastPContinuous = document.getElementById("past_perfect_continuousBtn");
+  let presentPContinuous = document.getElementById(
+    "present_perfect_continuousBtn"
+  );
+  let pronouns = document.getElementById("pronouns-btn");
+  let conditional = document.getElementById("conditionals-btn");
+  let conjunction = document.getElementById("conjunctions-btn");
+  let speech = document.getElementById("d-and-i-btn");
+  let question = document.getElementById("questions-btn");
+  let clauses = document.getElementById("relative-btn");
+  let reported = document.getElementById("reported-btn");
+  let gerund = document.getElementById("gerund-btn");
+  let appositive = document.getElementById("appositives-btn");
+  let non_infinitives = document.getElementById("non-infinitive-btn");
+  if (window.matchMedia("(max-width: 480px)").matches) {
+    english.textContent = "ENG";
+    javascript.textContent = "JS";
+    nodejs.textContent = "NODE";
+    react.textContent = "REACT";
+    ss.textContent = "Structure";
+    pos.textContent = "Speech";
+    dsClauses.textContent = "Dependent";
+    idClauses.textContent = "Independent";
+    direct.textContent = "Direct";
+    indirect.textContent = "Indirect";
+    futurePContinuous.textContent = "F.Perfect Continuous";
+    pastPContinuous.textContent = "P.Perfect Continuous";
+    presentPContinuous.textContent = "P.Perfect Continuous";
+    pronouns.textContent = "Pronoun";
+    conditional.textContent = "Conditional";
+    conjunction.textContent = "Conjunction";
+    speech.textContent = "Speech";
+    question.textContent = "Question";
+    clauses.textContent = "Relative";
+    reported.textContent = "Reported";
+    gerund.textContent = "Gerund";
+    appositive.textContent = "Appositive";
+    non_infinitives.textContent = "N. Infinitive";
+  } else if (window.matchMedia("(max-width: 768px)").matches) {
+    english.textContent = "English";
+    javascript.textContent = "JavaScript";
+    nodejs.textContent = "Node JS";
+    react.textContent = "React";
+  }
+}
+updateMenuBasedOnScreenSize();
